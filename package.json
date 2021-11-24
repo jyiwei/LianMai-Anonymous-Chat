@@ -1,0 +1,26 @@
+{
+  "name": "lianmai-anonymous-chat",
+  "version": "1.0.0",
+  "description": "A platform with anonymous chat rooms offering one-on-one mental health counselling for Chinese international students.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyiwei/LianMai-Anonymous-Chat.git"
+  },
+  "author": "Jack Wei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyiwei/LianMai-Anonymous-Chat/issues"
+  },
+  "homepage": "https://github.com/jyiwei/LianMai-Anonymous-Chat#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pusher": "^5.0.0"
+  }
+}
